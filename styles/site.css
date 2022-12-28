@@ -80,17 +80,19 @@ header{
 
 .name{
   /* font-family: 'Great Vibes', cursive; */
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Fredericka the Great', cursive;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Montserrat', sans-serif; 
+  /* font-family: 'Raleway', sans-serif;
+ /* font-family: 'Fredericka the Great', cursive; */
+  /* font-family: 'Nixie One', cursive;  */
   font-size: 80px;
   color: rgb(75, 72, 72);
+  text-align: right!important;
   
 }
 .traits{
   color: rgb(82, 50, 50);
   letter-spacing: 5px;
+  text-align: right;
 }
 .homepage-text{
   margin-right: 3%;
@@ -108,7 +110,7 @@ header{
   font-family: 'Montserrat', sans-serif;
   font-weight:900;
   font-weight: bold!important; 
-  text-align: justify;
+  text-align: right;
 }
 .read-more{
   text-align: right;
