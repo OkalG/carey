@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: white;
+    height: 100%;
+
+}
+header{
+  width: 100vw!important;
+  background-color: rgb(72, 72, 75)
+}
+
+.topNav {
+    width: 100%;
+    /* Add some styling to the top navigation bar */
+    /* background-color: #cccccc; */
+    background-color: rgb(75, 72, 72);
+    color: rgb(202, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+  
+  }
+  .logo-container{
+    background-color: rgb(75, 72, 72);
+  }
+  
+  /* Style the navigation links container */
+  .navigation_links_container {
+    display: flex;
+    /* align-items: center; */
+  
+  }
+  
+  /* Style the navigation links */
+  .navigation_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+  }
+  
+  .navigation_links li {
+    margin: 0 10px;
+  }
+  .navigation_links li a{
+    color: rgb(250, 248, 248);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .navigation_links  a:hover{
+    color: rgb(155, 99, 99);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  main{
+    margin: 0 auto;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    margin-left:5% ;
+    margin-right: 5%;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align:right;
+}
+
+.name{
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Nixie One', cursive;
+  font-size: 80px;
+  color: rgb(75, 72, 72);
+  
+}
+.traits{
+  color: rgb(82, 50, 50);
+  letter-spacing: 5px;
+}
+.homepage-text{
+  margin-right: 3%;
+ 
+}
+.homepage-photo{
+  margin-top: 5%;
+}
+.homepage-description{
+  margin-top: 2%;
+  color: rgb(0, 0, 5);
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-weight: bold!important; 
+}
+.read-more{
+  text-align: right;
+  margin-top: 3%;
+
+ 
+}
+.read-more a{
+  font-size: 22px;
+  color: rgb(82, 50, 50);
+  text-decoration: none;
+  font-size: 15px!important;
+  text-decoration: underline;
+
+  
+}
+p.read-more a {
+  /* Add a thin solid border to the link */
+
+  /* Transition the border color and width over 0.25 seconds */
+  transition: border 0.60s;
+}
+
+p.read-more a:hover {
+  /* Add a border to the top and bottom of the link */
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+}
+
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(75, 72, 72);
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(231, 229, 229);
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.name {
+  text-shadow: 0 0 20px #fff;
+}
+.hidden
+{
+  display: none;
+}
+
+.homepage-photo img{
+  height: 400px;
+}
+
+.copyright{
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.email{
+margin-top: 5px;
+}
+.email a{
+  font-size: 22px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+
+.zeraki{
+  text-align: right;
+  position: relative;
+  bottom: 30px;
+}
+.zeraki a{
+  font-size: 22px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+  
+  /* Make the navigation links responsive */
+  @media (max-width: 700px) {
+ 
+    .topNav {
+      flex-direction: column;
+      width: 100%!important;
+    }
+    .navigation_links{
+      flex-direction: row;
+      /* justify-content: center; */
+      justify-content: space-around;
+      flex-wrap: nowrap!important;
+    
+    }
+    footer{
+      position: sticky;
+      bottom:0;
+    }
+  
+    .navigation_links li {
+      margin: 10px 0;
+      justify-content: space-between;
+       /* margin-left: 5px; */
+    }
+    .navigation_links li a{
+      font-size: 13px!important; 
+    }
+  
+    .container{
+      flex-direction: column;
+      text-align: left;
+  
+    }
+    .name{
+      font-size: 22px!important;
+      text-align: center;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+    .traits{
+      margin-bottom: 13px;
+      font-size: 11px!important;
+    }
+    .homepage-description{
+      font-size: 15px;
+    }
+    .read-more{
+      font-size: 15px;
+    }
+    .not-hidden{
+      display: none;
+    }
+    .hidden{
+      display: contents;
+    }
+    .logo-container{
+      height: 22px;
+      position: relative;
+      bottom: 14px;
+      z-index: 1;
+    }
+ 
+    .homepage-photo img{
+      width: 400px;
+    }
+    .footer{
+      margin-top: 30px;
+    }
+
+  }
+  @media (max-width: 800px) {
+ 
+    .navigation_links{
+      flex-direction: row;
+      /* justify-content: center; */
+      margin-right: 20px;
+    
+    }
+    footer{
+      position: sticky;
+      bottom:0;
+    }
+  
+    .navigation_links li {
+      margin: 10px 0;
+      justify-content: space-between;
+       margin: 7px;
+    }
+    .navigation_links li a{
+      font-size: 16px; 
+    }
+  
+  
+    .container{
+      flex-direction: column;
+      text-align: left;
+  
+    }
+    .name{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .traits{
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+    .homepage-description{
+      font-size: 17px;
+    }
+    .read-more{
+      font-size: 17px;
+    }
+    .homepage-photo img{
+      width: 300px;
+    }
+    .footer{
+      margin-top: 40px;
+    }
+
+  }
+  @media (max-width: 1168px) {
+ 
+    .navigation_links{
+      flex-direction: row;
+      /* justify-content: center; */
+      margin-right: 20px;
+    
+    }
+  
+    .navigation_links li {
+      margin: 10px 0;
+      justify-content: space-between;
+       margin: 7px;
+    }
+    .navigation_links li a{
+      font-size: 16px; 
+    }
+  
+  
+    .container{
+      text-align: left;
+  
+    }
+    .name{
+      font-size: 45px;
+      text-align: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .traits{
+      margin-bottom: 10px;
+      font-size: 19px;
+    }
+    .homepage-description{
+      font-size: 17px;
+    }
+    .read-more{
+      font-size: 17px;
+    }
+    .homepage-photo img{
+      width: 300px;
+    }
+  }
+  @media (min-width: 1169px){
+    .footer{
+      margin-top: 4%;
+    }
+    
+  }
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
