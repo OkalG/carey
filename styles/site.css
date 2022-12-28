@@ -211,10 +211,7 @@ margin-top: 5px;
       flex-wrap: nowrap!important;
     
     }
-    footer{
-      position: sticky;
-      bottom:0;
-    }
+
   
     .navigation_links li {
       margin: 10px 0;
@@ -264,6 +261,10 @@ margin-top: 5px;
     }
     .footer{
       margin-top: 30px;
+  
+    }
+    footer{
+      display: none;
     }
 
   }
@@ -275,10 +276,7 @@ margin-top: 5px;
       margin-right: 20px;
     
     }
-    footer{
-      position: sticky;
-      bottom:0;
-    }
+ 
   
     .navigation_links li {
       margin: 10px 0;
@@ -316,6 +314,9 @@ margin-top: 5px;
     }
     .footer{
       margin-top: 40px;
+    }
+    footer{
+      display: none;
     }
 
   }
@@ -361,6 +362,7 @@ margin-top: 5px;
     .homepage-photo img{
       width: 300px;
     }
+ 
   }
   @media (min-width: 1169px){
     .footer{
