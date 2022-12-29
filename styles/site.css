@@ -47,7 +47,7 @@ header{
   }
   
   .navigation_links li {
-    margin: 0 10px;
+    margin: 0 40px;
   }
   .navigation_links li a{
     color: rgb(250, 248, 248);
@@ -62,6 +62,7 @@ header{
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
   }
+
   main{
     /* margin: 0 auto; */
     /* padding-left: 5%;
@@ -133,7 +134,7 @@ div.homepage-description{
   font-size: 22px;
   color: rgb(82, 50, 50);
   text-decoration: none;
-  font-size: 15px!important;
+  font-size: 20px!important;
   text-decoration: underline;
 
   
@@ -167,6 +168,10 @@ footer {
   font-family: 'Montserrat', sans-serif;
 
 }
+.footer{
+  margin-left:5%;
+  margin-right: 5%;
+}
 .name {
   text-shadow: 0 0 20px #fff;
 }
@@ -179,12 +184,20 @@ footer {
   height: 400px;
 }
 
-.copyright{
+.copyright {
   font-size: 15px;
   color: black;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: 'Montserrat', sans-serif;
 }
+.copyright1{
+  font-size: 15px;
+  color: black;
+  text-decoration: none !important;
+  font-family: 'Montserrat', sans-serif;
+  display: inline;
+}
+    
 .email{
 margin-top: 5px;
 }
@@ -201,6 +214,17 @@ margin-top: 5px;
   text-align: right;
   position: relative;
   bottom: 30px;
+}
+.zeraki-about{
+  text-align: left;
+}
+.zeraki-about a{
+  font-size: 22px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+
 }
 .zeraki a{
   font-size: 22px;
@@ -222,9 +246,9 @@ margin-top: 5px;
 .right-sidebar {
   width: 30%;
   /* background-color: rgb(75, 72, 72)!important; */
-  height: 100vh;
   margin-top: 3%;
   margin-left: 1%;
+  height: 542.3px!important;
   
 }
 
@@ -243,6 +267,39 @@ margin-top: 5px;
 }
 
 
+.footer-about{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.email1{
+  display: inline;
+}
+.email1 a{
+  font-size: 22px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+.email1 a:hover{
+  color: rgb(155, 99, 99);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.zeraki-about1 a{
+  font-size: 22px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+.zeraki-about1 a:hover{
+  color: rgb(155, 99, 99);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
   
   /* Make the navigation links responsive */
 
@@ -303,10 +360,10 @@ margin-top: 5px;
       z-index: 1;
     }
  
-    .footer{
+    /* .footer{
       margin-top: 30px;
   
-    }
+    } */
     footer{
       display: none;
     }
@@ -356,9 +413,9 @@ margin-top: 5px;
     .homepage-photo img{
       width: 300px;
     }
-    .footer{
+    /* .footer{
       margin-top: 40px;
-    }
+    } */
     footer{
       display: none;
     }
@@ -383,6 +440,9 @@ margin-top: 5px;
       width: 300px;
       height: 100vh;
    
+    }
+    .right-sidebar{
+      margin-top: 2px;
     }
     
 
@@ -431,18 +491,18 @@ margin-top: 5px;
       width: 300px;
     }
    .footer{
-      margin-top: 6%;
+      margin-top: 5%;
       position: relative;
-      top: 64px;
+      top: 55px;
     }
   
 
   }
   @media (min-width: 1169px){
     .footer{
-      margin-top: 6%;
+      margin-top: 3%;
       position: relative;
-      top: 65px;
+      top: 80px;
     }
   
     
