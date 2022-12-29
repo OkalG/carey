@@ -410,6 +410,10 @@ margin-top: 5px;
     .homepage-photo img{
       width: 300px;
     }
+    .homepage-photo{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
     /* .footer{
       margin-top: 40px;
     } */
@@ -496,10 +500,10 @@ margin-top: 5px;
     .read-more{
       font-size: 17px;
     }
-    .homepage-photo img{
+    /* .homepage-photo img{
       width: 400px;
       height: 520px;
-    }
+    } */
    .footer{
       margin-top: 5%;
       position: relative;
