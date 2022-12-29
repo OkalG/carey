@@ -221,7 +221,7 @@ margin-top: 5px;
 
 .right-sidebar {
   width: 30%;
-  background-color: rgb(75, 72, 72)!important;
+  /* background-color: rgb(75, 72, 72)!important; */
   height: 100vh;
   margin-top: 3%;
   margin-left: 1%;
@@ -235,7 +235,12 @@ margin-top: 5px;
 .sidebar-photo img{
   width: 100%;
 }
-
+.title{
+  font-size: 18px;
+  color: rgb(75, 72, 72);
+  text-align: center!important;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
   
@@ -376,7 +381,6 @@ margin-top: 5px;
     
     .right-sidebar {
       width: 300px;
-      background-color: aqua;
       height: 100vh;
    
     }
