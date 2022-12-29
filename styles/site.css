@@ -89,6 +89,11 @@ header{
   text-align: right!important;
   
 }
+h2.name{
+  text-align: left!important;
+}
+
+
 .traits{
   color: rgb(82, 50, 50);
   letter-spacing: 5px;
@@ -111,6 +116,9 @@ header{
   font-weight:900;
   font-weight: bold!important; 
   text-align: right;
+}
+div.homepage-description{
+  text-align: left!important;
 }
 .read-more{
   text-align: right;
@@ -198,6 +206,19 @@ margin-top: 5px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: underline;
 }
+.container1 {
+  display: flex;
+}
+
+.sidebar {
+  flex-grow: 3;
+ 
+}
+
+.main-content {
+  flex-grow: 1;
+  height: 100vh;
+}
 
   
   /* Make the navigation links responsive */
@@ -269,6 +290,11 @@ margin-top: 5px;
     footer{
       display: none;
     }
+    .sidebar-photo .homepage-photo{
+      width: 150px;
+      height: 200px;
+    }
+    
 
   }
   @media (max-width: 800px) {
@@ -321,6 +347,12 @@ margin-top: 5px;
     footer{
       display: none;
     }
+    .sidebar-photo .homepage-photo{
+      width: 200px;
+      height: 250px;
+
+    }
+    
 
   }
   @media (max-width: 1168px) {
@@ -370,12 +402,22 @@ margin-top: 5px;
       position: relative;
       top: 64px;
     }
+    .sidebar-photo .homepage-photo{
+      width: 200px;
+      height: 250px;
+
+    }
   }
   @media (min-width: 1169px){
     .footer{
       margin-top: 6%;
       position: relative;
       top: 65px;
+    }
+    .sidebar-photo .homepage-photo{
+      width: 200px;
+      height: 300px;
+
     }
     
   }
