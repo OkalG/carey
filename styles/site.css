@@ -302,6 +302,7 @@ margin-top: 5px;
   transition: all 0.5s ease-in-out;
 }
 
+
   /* Make the navigation links responsive */
 
   @media (max-width: 700px) {
@@ -429,7 +430,6 @@ margin-top: 5px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-   
       align-items: center;
     }
     
@@ -473,6 +473,7 @@ margin-top: 5px;
   
     .container{
       text-align: left;
+      flex-direction: column;
   
     }
     .name{
@@ -492,13 +493,29 @@ margin-top: 5px;
       font-size: 17px;
     }
     .homepage-photo img{
-      width: 300px;
+      width: 400px;
+      height: 520px;
     }
    .footer{
       margin-top: 5%;
       position: relative;
       top: 55px;
     }
+    .about-me{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .sidebar {
+      width: 100%;
+    }
+    
+    .right-sidebar {
+      width: 350px;
+      /* height: 100vh; */
+      margin-top: 2px;
+    }
+   
   
 
   }
